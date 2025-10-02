@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timeline - Hòa Phát Dung Quất 2</title>
+
+    <!-- Owl Carousel CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
+
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <!-- Main Content Card -->
+        <div class="content-card">
+            <div class="content-grid">
+                <!-- Image Section -->
+                <div class="image-section">
+                    <img src="images/1.jpg" alt="">
+                </div>
+
+                <!-- Content Section -->
+                <div class="text-section">
+                    <h2 id="contentTitle">Tháng 12/2024</h2>
+                    <p id="contentDescription">
+                        Phân kỳ 1, dự án Khu liên hợp sản xuất gang thép Hòa Phát Dung Quất 2 hoàn thành lắp đặt, chuẩn
+                        bị đưa vào hoạt động thử nghiệm trong quý 1/2025. Phân kỳ 2 dự kiến hoàn thành vào cuối năm
+                        2025.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Timeline Section -->
+        <div class="timeline-section">
+            <div class="timeline-wrapper">
+                <div class="border-pattern"></div>
+                <!-- <div class="timeline-line"></div> -->
+
+                <div class="swiper-container timeline-carousel">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide timeline-item" data-year="1992">
+
+                            <div class="timeline-year">1992</div>
+                        </div>
+                        <div class="swiper-slide timeline-item passed" data-year="1995">
+
+                            <div class="timeline-year">1995</div>
+                        </div>
+                        <div class="swiper-slide timeline-item passed" data-year="1996">
+
+                            <div class="timeline-year">1996</div>
+                        </div>
+                        <div class="swiper-slide timeline-item passed" data-year="2001">
+
+                            <div class="timeline-year">2001</div>
+                        </div>
+                        <div class="swiper-slide timeline-item passed" data-year="2004">
+
+                            <div class="timeline-year">2004</div>
+                        </div>
+                        <div class="swiper-slide timeline-item passed" data-year="2007">
+
+                            <div class="timeline-year">2007</div>
+                        </div>
+                        <div class="swiper-slide timeline-item passed" data-year="2009">
+
+                            <div class="timeline-year">2009</div>
+                        </div>
+                        <div class="swiper-slide timeline-item passed" data-year="2011">
+
+                            <div class="timeline-year">2011</div>
+                        </div>
+                        <div class="swiper-slide timeline-item passed" data-year="2012">
+
+                            <div class="timeline-year">2012</div>
+                        </div>
+                        <div class="swiper-slide timeline-item passed" data-year="2013">
+
+                            <div class="timeline-year">2013</div>
+                        </div>
+                        <div class="swiper-slide timeline-item passed" data-year="2015">
+
+                            <div class="timeline-year">2015</div>
+                        </div>
+                        <div class="swiper-slide timeline-item passed" data-year="2016">
+
+                            <div class="timeline-year">2016</div>
+                        </div>
+                        <div class="swiper-slide timeline-item passed" data-year="2017">
+
+                            <div class="timeline-year">2017</div>
+                        </div>
+                        <div class="swiper-slide timeline-item passed" data-year="2018">
+
+                            <div class="timeline-year">2018</div>
+                        </div>
+                        <div class="swiper-slide timeline-item passed" data-year="2019">
+
+                            <div class="timeline-year">2019</div>
+                        </div>
+                        <div class="swiper-slide timeline-item passed" data-year="2020">
+
+                            <div class="timeline-year">2020</div>
+                        </div>
+                        <div class="swiper-slide timeline-item passed" data-year="2021">
+
+                            <div class="timeline-year">2021</div>
+                        </div>
+                        <div class="swiper-slide timeline-item passed" data-year="2022">
+
+                            <div class="timeline-year">2022</div>
+                        </div>
+                        <div class="swiper-slide timeline-item passed" data-year="2022">
+
+                            <div class="timeline-year">2022</div>
+                        </div>
+                        <div class="swiper-slide timeline-item passed" data-year="2023">
+
+                            <div class="timeline-year">2023</div>
+                        </div>
+                        <div class="swiper-slide timeline-item passed" data-year="2023">
+
+                            <div class="timeline-year">2023</div>
+                        </div>
+                        <div class="swiper-slide timeline-item active" data-year="2024">
+
+                            <div class="timeline-year">2024</div>
+                        </div>
+                    </div>
+                    <!-- Add navigation buttons -->
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- Owl Carousel JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            // Initialize Swiper
+            var swiper = new Swiper('.timeline-carousel', {
+                slidesPerView: 3,
+                spaceBetween: 25,
+                navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
+                },
+                breakpoints: {
+                    600: {
+                        slidesPerView: 5
+                    },
+                    1000: {
+                        slidesPerView: 8
+                    },
+                    1400: {
+                        slidesPerView: 21
+                    }
+                },
+
+                initialSlide: 17 // Start at 2024
+
+            });
+
+            // Timeline item click handler
+            $('.timeline-item').on('click', function () {
+                var year = $(this).data('year');
+
+                // Remove active class from all items
+                $('.timeline-item').removeClass('active');
+
+                // Add active class to clicked item
+                $(this).addClass('active');
+
+                // Update content
+                updateContent(year);
+            });
+
+            function updateContent(year) {
+                var content = {
+                    1992: {
+                        title: "Năm 1992",
+                        description: "Khởi đầu hành trình phát triển của Tập đoàn Hòa Phát."
+                    },
+                    2024: {
+                        title: "Tháng 12/2024",
+                        description: "Phân kỳ 1, dự án Khu liên hợp sản xuất gang thép Hòa Phát Dung Quất 2 hoàn thành lắp đặt, chuẩn bị đưa vào hoạt động thử nghiệm trong quý 1/2025. Phân kỳ 2 dự kiến hoàn thành vào cuối năm 2025."
+                    }
+                };
+
+                var data = content[year] || {
+                    title: "Năm " + year,
+                    description: "Thông tin chi tiết về năm " + year + " đang được cập nhật."
+                };
+
+                $('#contentTitle').text(data.title);
+                $('#contentDescription').text(data.description);
+            }
+        });
+    </script>
+</body>
+
+</html>
